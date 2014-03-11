@@ -13,17 +13,17 @@ config = {
         // Example mail config
         // Visit http://docs.ghost.org/mail for instructions
         // ```
-        //  mail: {
-        //      transport: 'SMTP',
-        //      options: {
-        //          service: 'Mailgun',
-        //          auth: {
-        //              user: '', // mailgun username
-        //              pass: ''  // mailgun password
-        //          }
-        //      }
-        //  },
-        // ```
+        mail: {
+              transport: 'SMTP',
+              options: {
+                  service: 'Outlook',
+                 auth: {
+                      user: 'hola@luisfuentes.me', // mailgun username
+                      pass: 'Apolo1313'  // mailgun password
+                       }
+                       }
+              },
+        // ``
 
         database: {
             client: 'sqlite3',
